@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             binding.tvTitle.setText(item.getTitle());
             binding.tvBahasaIsi.setText(item.getOriginalLanguage());
             binding.tvDateIsi.setText(item.getReleaseDate());
-            binding.tvNumAvg.setText((int) item.getVoteAverage());
+            binding.tvNumAvg.setText(item.getVoteAverage());
             binding.tvNumCount.setText(item.getVoteCount());
             binding.tvOverview.setText(item.getOverview());
             binding.tvTagline.setText(item.getTagline());

@@ -99,8 +99,8 @@ public class ResponseMovieDetail {
         return id;
     }
 
-    public int getVoteCount() {
-        return voteCount;
+    public String getVoteCount() {
+        return String.valueOf(voteCount);
     }
 
     public int getBudget() {
@@ -127,8 +127,8 @@ public class ResponseMovieDetail {
         return releaseDate;
     }
 
-    public double getVoteAverage() {
-        return voteAverage;
+    public String getVoteAverage() {
+        return String.valueOf(voteAverage);
     }
 
     public Object getBelongsToCollection() {
